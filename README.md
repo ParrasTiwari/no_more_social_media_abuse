@@ -38,7 +38,7 @@ It includes **data preprocessing, model training, model registry, FastAPI servin
 ---
 ## 🔹 Folder Structure
 project_root/ \
-│
+│\
 ├── api/ # FastAPI code for serving\
 ├── configs/ # YAML configs (training, logging)\
 ├── data/raw/ # Raw CSV dataset\
@@ -101,8 +101,11 @@ export PYTHONPATH=.
   - metrics.json → Validation metrics
   - training_config.yaml → Training config snapshot
   - metadata.json → Model info
-  - registry.json → Versioned registry
-⚠️ We have not used optimized cutting-edge architecture in the train.py due to limited traininig resources. More architectures will be provided. We encourage community to contribute more effective architectures.
+  - registry.json → Versioned registry\
+
+
+⚠️ **We have not used optimized cutting-edge architecture in the train.py due to limited traininig resources. More architectures will be provided. We encourage community to contribute more effective architectures.**
+
 ## 🔹 Model Artifact and registry
 Example registry.json
 ```bash
