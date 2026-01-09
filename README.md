@@ -1,4 +1,4 @@
-# Counter Cyber Crime Abusive Text Detection (Code-Mixed NLP)  
+# Counter Cyber Crime: Abusive Text Detection  
 
 This repository implements a **production-ready MLOps pipeline** for detecting abusive text in code-mixed content (e.g., Hindi-English).  
 It includes **data preprocessing, model training, model registry, FastAPI serving, and a simple frontend** for demonstration.  
@@ -139,7 +139,6 @@ Example registry.json
 4. **Use /predict endpoint**
    ```bash
    curl -X POST http://localhost:8000/predict \ -H "Content-Type: application/json" \ -d '{"text":"you are useless"}'
-  ``
 
 ## 🔹 Frontend Demo
 ```bash
