@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Abusive Text Detector</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Abusive Text Detection</h1>
+    <p class="subtitle">
+        Enter text below to check whether it is abusive or non-abusive.
+    </p>
+
+    <textarea
+        id="inputText"
+        placeholder="Type your text here..."
+        rows="6"
+    ></textarea>
+
+    <button id="predictBtn">Analyze</button>
+
+    <div id="result" class="hidden">
+        <p>
+            <strong>Prediction:</strong>
+            <span id="label"></span>
+        </p>
+        <p>
+            <strong>Probability:</strong>
+            <span id="probability"></span>
+        </p>
+        <p>
+            <strong>Latency:</strong>
+            <span id="latency"></span> ms
+        </p>
+    </div>
+
+    <p id="error" class="error hidden"></p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

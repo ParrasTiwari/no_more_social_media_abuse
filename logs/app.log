@@ -1,0 +1,18 @@
+2025-12-20 15:23:55,160 | INFO | __main__ | Running training pipeline
+2025-12-20 15:26:37,487 | INFO | __main__ | Running training pipeline
+2025-12-20 15:27:39,422 | INFO | __main__ | Running training pipeline
+2025-12-20 15:29:34,148 | INFO | __main__ | Running training pipeline
+2025-12-20 15:31:33,309 | INFO | __main__ | Training pipeline completed
+2025-12-20 15:32:54,848 | INFO | __main__ | Running inference pipeline
+2025-12-20 15:32:58,320 | INFO | __main__ | Sample inference result: {'label': 'non-abusive', 'probability': 0.4550332725048065, 'latency_ms': 600.91}
+2025-12-20 15:33:29,799 | INFO | api.main | Starting model initialization
+2025-12-20 15:33:33,052 | INFO | api.main | Model loaded successfully | version=v1
+2025-12-20 15:36:41,391 | INFO | api.main | Received /predict request
+2025-12-20 15:43:46,725 | INFO | api.main | Received /predict request
+2025-12-20 15:45:01,751 | INFO | api.main | Received /predict request
+2025-12-20 15:46:08,990 | INFO | api.main | Received /predict request
+2025-12-20 15:46:45,507 | INFO | api.main | Received /predict request
+2025-12-20 15:47:59,437 | INFO | api.main | Received /predict request
+2025-12-20 15:52:37,179 | INFO | api.main | Starting model initialization
+2025-12-20 15:52:40,441 | INFO | api.main | Model loaded successfully | version=v1
+2025-12-20 15:52:56,468 | INFO | api.main | Received /predict request

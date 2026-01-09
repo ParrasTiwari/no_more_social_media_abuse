@@ -1,0 +1,25 @@
+model:
+  version: v1
+  type: bilstm
+  embedding_dim: 70
+  lstm_units: 64
+  dropout: 0.3
+
+training:
+  batch_size: 64
+  epochs: 10
+  early_stopping_patience: 2
+
+tokenizer:
+  max_vocab_size: 30000
+  max_seq_len: 100
+  oov_token: "<OOV>"
+
+paths:
+  processed_data_dir: data/processed
+  model_dir: models
+  raw_data_path: data/raw/updated_code_mix_abusive.csv
+data:
+  train_ratio: 0.85
+  val_ratio: 0.05
+  random_seed: 42
