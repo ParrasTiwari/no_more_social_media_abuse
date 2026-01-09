@@ -7,16 +7,16 @@ It includes **data preprocessing, model training, model registry, FastAPI servin
 
 ## 🔹 Table of Contents
 
-1. [Project Overview](#project-overview)  
-2. [Folder Structure](#folder-structure)  
-3. [Setup Environment](#setup-environment)  
-4. [Data Preparation](#data-preparation)  
-5. [Training the Model](#training-the-model)  
-6. [Model Artifacts & Registry](#model-artifacts--registry)  
-7. [Running the API](#running-the-api)  
-8. [Frontend Demo](#frontend-demo)  
-9. [Project Logs](#project-logs)  
-10. [Future Steps / Dockerization](#future-steps--dockerization)  
+1. [Project Overview](#-project-overview)  
+2. [Folder Structure](#-folder-structure)  
+3. [Setup Environment](#-setup-environment)  
+4. [Data Preparation](#-data-preparation)  
+5. [Training the Model](#-training-the-model)  
+6. [Model Artifacts & Registry](#-model-artifacts--registry)  
+7. [Running the API](#-running-the-api)  
+8. [Frontend Demo](#-frontend-demo)  
+9. [Project Logs](#-project-logs)  
+10. [Future Steps / Dockerization](#-future-steps--dockerization)  
 
 ---
 
@@ -37,22 +37,22 @@ It includes **data preprocessing, model training, model registry, FastAPI servin
 
 ---
 ## 🔹 Folder Structure
-project_root/
+project_root/ \
 │
-├── api/ # FastAPI code for serving
-├── configs/ # YAML configs (training, logging)
-├── data/raw/ # Raw CSV dataset
-├── frontend/ # Simple HTML/CSS/JS UI
-├── models/ # Model versions, registry.json
-├── pipelines/ # Orchestration wrappers
-├── scripts/ # CLI scripts for training / API
-├── src/ # Core libraries
-│ ├── common/ # Logger, utils
-│ ├── data/ # Preprocessing, tokenizer, data loader
-│ ├── inference/ # Model loader & predictor
-│ └── training/ # train.py
-├── requirements.txt # Python dependencies
-└── README.md
+├── api/ # FastAPI code for serving\
+├── configs/ # YAML configs (training, logging)\
+├── data/raw/ # Raw CSV dataset\
+├── frontend/ # Simple HTML/CSS/JS UI\
+├── models/ # Model versions, registry.json\
+├── pipelines/ # Orchestration wrappers\
+├── scripts/ # CLI scripts for training / API\
+├── src/ # Core libraries\
+│ ├── common/ # Logger, utils\
+│ ├── data/ # Preprocessing, tokenizer, data loader\
+│ ├── inference/ # Model loader & predictor\
+│ └── training/ # train.py\
+├── requirements.txt # Python dependencies\
+└── README.md\
 
 ---
 
